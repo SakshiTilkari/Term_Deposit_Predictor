@@ -92,6 +92,3 @@ if st.button('Predict'):
     st.subheader('Prediction')
     st.write('Yes, the client will subscribe to a term deposit' if prediction[0] == 1 else "No, the client won't subscribe to a term deposit")
 
-    st.subheader('Prediction Probability')
-    st.write(prediction_proba)
-
