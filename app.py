@@ -9,7 +9,7 @@ with open('best_model.pkl', 'rb') as f:
 
 # Define the input function
 def user_input_features():
-    st.header("User Input Parameters")
+    st.header("Term Deposit Predictor")
 
     col1, col2, col3 = st.columns(3)
 
